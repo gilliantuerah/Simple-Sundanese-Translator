@@ -60,3 +60,6 @@ set FLASK_ENV=development
 ```
 flask run
 ```
+
+## Link Youtube
+[Demo Penggunaan "Simple Sundanese Translator" - 13518070](https://youtu.be/neZmw-ND2Ys)
