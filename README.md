@@ -62,4 +62,4 @@ flask run
 ```
 
 ## Link Youtube
-[Demo Penggunaan "Simple Sundanese Translator" - 13518070](https://youtu.be/neZmw-ND2Ys)
+[Demo Penggunaan "Simple Sundanese Translator" - 13518070](https://www.youtube.com/watch?v=YRB6-eCsllA)
