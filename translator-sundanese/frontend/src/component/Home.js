@@ -8,8 +8,7 @@ class Home extends Component {
             <div>
 
                 <header className="App-header">
-                    {/* <h1>Sorting App</h1>
-                    <p className="desc"> helps u sort ur number ! </p> */}
+
                 </header>
 
                 <UserInput />
