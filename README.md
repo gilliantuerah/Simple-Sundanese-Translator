@@ -1,6 +1,6 @@
 # Simple Sundanese Translator
 ## Description
-Simple Sundanese to Bahasa Indonesia translator using Knuth-Morris-Pratt (KMP) algorithm for pattern matching and Regex to split the text.
+Simple Sundanese to Bahasa Indonesia translator using Knuth-Morris-Pratt (KMP) algorithm for string matching and Regex to split the text.
 <br/>
 This application was made using react js for front-end and flask for back-end.
 
@@ -30,7 +30,7 @@ make sure you have add the path C:\Windows\System32 and the path of nodejs insta
 
 ### How to compile on Windows?
 1. Open 2 cmd (to run react as frontend and flask as backend)
-2. Open sort-web folder in both cmd
+2. Open translator-sundanese folder in both cmd
 ```
 cd translator-sundanese
 ```
