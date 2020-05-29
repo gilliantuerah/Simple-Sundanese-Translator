@@ -1,6 +1,7 @@
 from KMP import KMPmatching
 from readFile import readFile, getHasilTerjemahan
 from Regex import kalimatToKata
+import os
 
 
 def hasil(menu, kalimat):
@@ -18,7 +19,9 @@ def hasil(menu, kalimat):
     # kata : array of kata tanpa character dan "teh"
     # kataPure : array of kata dengan chacacter dan "teh"
 
-    dir = 'D:\\kuliahh\\aslab\\ca-irk\\Simple-Sundanese-Translator\\translator-sundanese\\backend\\doc\\'
+    # current working dir
+    curr = os.getcwd()
+    dir = curr+".\\doc\\"
     # read file sunda.txt untuk menu "STI"
     if(menu == "STI"):
         kamus = readFile(dir+'sunda.txt')
