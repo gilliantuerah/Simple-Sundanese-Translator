@@ -7,11 +7,12 @@ def readFile(path):
     return line
 
 
-def getHasilTerjemahan(idx, indoList):
+def getHasilTerjemahan(idx, indoList, idxTerjemahan):
     # mengembalikan terjemahan dalam bahasa sunda atau bahasa indonesia (bagian kanan)
     # membagi line dengan "="
     kataTerjemahan = indoList[idx].split("= ")
     # menambahkan imbuhan "teh" sebelum kata tanya siapa dan apa
-    if(kataTerjemahan[1] == "saha")or((kataTerjemahan[1] == "naon")):
-        kataTerjemahan[1] = "teh "+kataTerjemahan[1]
+    if(idxTerjemahan != 0):
+        if((kataTerjemahan[1] == "saha")or(kataTerjemahan[1] == "naon")):
+            kataTerjemahan[1] = "teh "+kataTerjemahan[1]
     return kataTerjemahan[1]

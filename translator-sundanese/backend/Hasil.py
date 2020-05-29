@@ -15,12 +15,10 @@ def hasil(menu, kalimat):
     hasilTerjemahan = ''
     # mengubah kalimat menjadi list of kata
     kata, kataPure = kalimatToKata(kalimat)
-    print(kata)
-    print(kataPure)
     # kata : array of kata tanpa character dan "teh"
     # kataPure : array of kata dengan chacacter dan "teh"
 
-    dir = 'D:\\kuliahh\\aslab\\ca-irk\\Simple-Sundanese-Translator\\backend\\doc\\'
+    dir = 'D:\\kuliahh\\aslab\\ca-irk\\Simple-Sundanese-Translator\\translator-sundanese\\backend\\doc\\'
     # read file sunda.txt untuk menu "STI"
     if(menu == "STI"):
         kamus = readFile(dir+'sunda.txt')
@@ -42,20 +40,16 @@ def hasil(menu, kalimat):
 
             # jika kata ditemukan dalam kamus
             if(idx != -1):
-                kalimatHasil.append(getHasilTerjemahan(i-1, kamus))
+                kalimatHasil.append(getHasilTerjemahan(i-1, kamus, j)+' ')
             # jika kata tidak ditemukan dalam kamus
             else:
                 kalimatHasil.append(kataPure[j])
 
         else:
             # ignore teh di hasil terjemahan
-            if(kataPure[j] != "teh"):
+            if(kataPure[j] != "teh "):
                 kalimatHasil.append(kataPure[j])
     for k in kalimatHasil:
-        hasilTerjemahan += k+' '
+        hasilTerjemahan += k
 
-    print(hasilTerjemahan)
     return hasilTerjemahan
-
-
-hasil("STI", "abdi nAon ?")

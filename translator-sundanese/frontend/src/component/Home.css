@@ -1,0 +1,19 @@
+.App-header {
+    background-image: url(../img/Header.png);
+    background-size: 800px;
+    background-position: center;
+    min-height: 43vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.desc{
+    font-size: small;
+    color: whitesmoke;
+    align-items: center;
+    font-size: large;
+    font-family:'Times New Roman';
+}  

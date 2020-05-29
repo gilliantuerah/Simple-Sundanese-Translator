@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'playlistscript';
+    src: url('../font/webfontkit-20200523-091436/playlist_script-webfont.woff2') format('woff2'),
+         url('../font/webfontkit-20200523-091436/playlist_script-webfont.woff') format('woff');
+
+}
+.App-footer{
+    
+    background-image: url(../img/Footer.png);
+    background-size: 1000px;
+    background-position: bottom;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color:white;
+}
+.footer-text{
+    font-family: playlistscript,Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(247, 247, 247);
+}

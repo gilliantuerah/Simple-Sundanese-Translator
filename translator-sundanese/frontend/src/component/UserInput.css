@@ -1,0 +1,77 @@
+.menu{
+    background-color:#302326;
+    background-image: url(../img/body-1.png);
+    background-size: 800px;
+    background-position: top;
+    min-height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: whitesmoke;
+}
+
+.header-menu{
+    font-family: "Palatino";
+    font-size: 40px;
+    text-align: "center";
+    
+}
+.header-insert-kalimat{
+    font-family: "Palatino";
+    font-size: 30px;
+    text-align: "center";
+    color:rgb(255, 255, 255);
+}
+.submit-button{ 
+    color: rgb(252, 243, 243);
+    background-color:rgb(121, 76, 62);
+    border: 2px solid rgb(80, 53, 53);
+    border-radius:8px;
+    font-size: 15px;  
+    width: 120px;
+    height: 30px;
+    font-family: Verdana ;
+    display: inline-block;
+    font-variant: small-caps;
+    font-weight: bold;
+    
+}
+
+.select-block{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius:5px;
+    font-family: 'Gill Sans MT';
+    font-style: inherit;
+    font-size: 20px;
+}
+
+.num-block{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #eee;
+    border-radius:3px;
+    padding: 1px;
+    width: 200px;
+    height: 25px;
+    font-size:15px;
+    font-family: 'Lucida Sans';
+}
+.hasil{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #eee;
+    border-radius:3px;
+    padding: 1px;
+    width:200px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    color: black;
+}
+
+
