@@ -32,7 +32,7 @@ make sure you have add the path C:\Windows\System32 and the path of nodejs insta
 1. Open 2 cmd (to run react as frontend and flask as backend)
 2. Open sort-web folder in both cmd
 ```
-cd sort-web
+cd translator-sundanese
 ```
 #### How to run React?
 1. Open frontend folder
